@@ -1,7 +1,7 @@
 {
   "name": "@flaticon/flaticon-uicons",
   "description": "Interface icons from Flaticon",
-  "version": "1.0.0",
+  "version": "1.002.0",
   "main": "index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,9 +22,9 @@
   "author": "gCuadros",
   "license": "ISC",
   "bugs": {
-    "url": "https://bitbucket.org/graphicresources/flaticon_uicons/issues"
+    "url": "https://github.com/flaticon/flaticon-uicons/issues"
   },
-  "homepage": "https://bitbucket.org/graphicresources/flaticon_uicons#readme",
+  "homepage": "https://github.com/flaticon/flaticon-uicons#readme",
   "devDependencies": {
     "esbuild": "^0.14.5",
     "esbuild-plugin-glob": "^1.0.3",
@@ -33,7 +33,7 @@
     "svgo": "^2.8.0",
     "typescript": "^4.5.4"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "esbuild-linux-64": "^0.14.5"
   },
   "private": false
