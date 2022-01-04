@@ -1,5 +1,5 @@
 {
-  "name": "flaticon_uicons",
+  "name": "@flaticon/flaticon-uicons",
   "description": "Interface icons from Flaticon",
   "version": "1.0.0",
   "main": "index.js",
