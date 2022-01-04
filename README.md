@@ -8,7 +8,7 @@ Open-source Over 4,000 SVG and web font-optimal vector-based icons available for
 
 #### 🔥 SVG Icons
 
-#### 🦄 Figma Components#### 🔮 Adobe XD Components
+#### 🦄 Figma Components####
 
 # Table of Contents
 
@@ -42,7 +42,7 @@ This package contains the following directories and files:
 
 # HTML include
 
-#### Go to [Flaticon <UICONS>](https://www.flaticon.com/uicons/get-started)
+#### Go to the user guide that you can find in [Flaticon <UICONS>](https://www.flaticon.com/uicons/get-started)
 
 # CSS @import
 

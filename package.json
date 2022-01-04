@@ -1,7 +1,7 @@
 {
   "name": "@flaticon/flaticon-uicons",
   "description": "Interface icons from Flaticon",
-  "version": "1.004.0",
+  "version": "1.005.0",
   "main": "index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,7 +18,23 @@
     "type": "git",
     "url": "https://github.com/flaticon/flaticon-uicons"
   },
-  "keywords": [],
+  "keywords": [
+    "icons",
+    "icon pack",
+    "uicons",
+    "interface icons",
+    "iconfont",
+    "flaticon",
+    "react",
+    "mobile",
+    "android",
+    "ios",
+    "font",
+    "bootstrap",
+    "figma",
+    "svg"
+    
+  ],
   "author": "gCuadros",
   "license": "ISC",
   "bugs": {
