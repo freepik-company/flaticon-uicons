@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "esbuild-linux-64": "^0.14.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
