@@ -19,9 +19,9 @@ Open-source Over 4,000 SVG and web font-optimal vector-based icons available for
 - [CSS @import](#css--import)
   - [1. All icons](#1-all-icons-1)
   - [2. Single icon](#2-single-icon-1)
-  - [3. Ecample](#3-example)
+  - [3. Example](#3-example)
 - [License Summary](#4-ĺicense-summary)
-- [How to attribute](#how-to-attribute)
+- [How to attribute](#5-how-to-attribute)
 
 # Get Started
 
@@ -58,14 +58,14 @@ This package contains the following directories and files:
 @import "~@flaticon/flaticon-uicons/css/{FONTWEIGHT}/{STYLENAME}";
 ```
 
-| WEIGHT &nbsp; | CORNER &nbsp; | PREFIX &nbsp; | EXAMPLE                       |
-| :------------ | :------------ | :------------ | :---------------------------- |
-| Regular       | Rounded       | fi-rr         | <i class="fi fi-rr-user"></i> |
-| Bold          | Rounded       | fi-br         | <i class="fi fi-br-user"></i> |
-| Solid         | Rounded       | fi-sr         | <i class="fi fi-sr-user"></i> |
-| Regular       | Straight      | fi-rs         | <i class="fi fi-rs-user"></i> |
-| Bold          | Straight      | fi-bs         | <i class="fi fi-bs-user"></i> |
-| Solid         | Straight      | fi-ss         | <i class="fi fi-ss-user"></i> |
+| WEIGHT &nbsp; | CORNER &nbsp; | PREFIX &nbsp; | EXAMPLE                         |
+| :------------ | :------------ | :------------ | :------------------------------ |
+| Regular       | Rounded       | fi-rr         | `<i class="fi fi-rr-user"></i>` |
+| Bold          | Rounded       | fi-br         | `<i class="fi fi-br-user"></i>` |
+| Solid         | Rounded       | fi-sr         | `<i class="fi fi-sr-user"></i>` |
+| Regular       | Straight      | fi-rs         | `<i class="fi fi-rs-user"></i>` |
+| Bold          | Straight      | fi-bs         | `<i class="fi fi-bs-user"></i>` |
+| Solid         | Straight      | fi-ss         | `<i class="fi fi-ss-user"></i>` |
 
 ##### 3. Example
 
