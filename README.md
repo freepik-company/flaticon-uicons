@@ -58,16 +58,18 @@ This package contains the following directories and files:
 
 ```css
 @import "~@flaticon/flaticon-uicons/css/{FONTWEIGHT}/{STYLENAME}";
+@import "~@flaticon/flaticon-uicons/css/brands/all";
 ```
 
-| WEIGHT &nbsp; | CORNER &nbsp; | PREFIX &nbsp; | EXAMPLE                         |
-| :------------ | :------------ | :------------ | :------------------------------ |
-| Regular       | Rounded       | fi-rr         | `<i class="fi fi-rr-user"></i>` |
-| Bold          | Rounded       | fi-br         | `<i class="fi fi-br-user"></i>` |
-| Solid         | Rounded       | fi-sr         | `<i class="fi fi-sr-user"></i>` |
-| Regular       | Straight      | fi-rs         | `<i class="fi fi-rs-user"></i>` |
-| Bold          | Straight      | fi-bs         | `<i class="fi fi-bs-user"></i>` |
-| Solid         | Straight      | fi-ss         | `<i class="fi fi-ss-user"></i>` |
+| WEIGHT &nbsp; | CORNER &nbsp; | PREFIX &nbsp; | EXAMPLE                                 |
+| :------------ | :------------ | :------------ | :-------------------------------------- |
+| Regular       | Rounded       | fi-rr         | `<i class="fi fi-rr-user"></i>`         |
+| Bold          | Rounded       | fi-br         | `<i class="fi fi-br-user"></i>`         |
+| Solid         | Rounded       | fi-sr         | `<i class="fi fi-sr-user"></i>`         |
+| Regular       | Straight      | fi-rs         | `<i class="fi fi-rs-user"></i>`         |
+| Bold          | Straight      | fi-bs         | `<i class="fi fi-bs-user"></i>`         |
+| Solid         | Straight      | fi-ss         | `<i class="fi fi-ss-user"></i>`         |
+| Brands        | Brands        | fi-ss         | `<i class="fi fi-brands-facebook"></i>` |
 
 ##### 3. Example
 
