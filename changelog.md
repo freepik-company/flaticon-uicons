@@ -1,14 +1,3 @@
-- feat : Add uicons brands
-- FI-11899_add_uicons_brands
-- Update Package.json
-- Update Readme
-- Package.json and Readme
-- Change package.json
-- Change package.json
-- Change package.json
-- Change package.json
-- Change package json
-
 # Change Log
 
 ## [Unreleased] - yyyy-mm-dd

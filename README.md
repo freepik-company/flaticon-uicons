@@ -4,6 +4,8 @@ Open-source Over 4,000 SVG and web font-optimal vector-based icons available for
 
 ![css.gg](https://media.flaticon.com/dist/min/img/interface-icons/uicons.png)
 
+#### 🔥 New Icons Brand
+
 #### 🚀 Over 4,000 Icons
 
 #### 🔥 SVG Icons
