@@ -69,7 +69,7 @@ This package contains the following directories and files:
 | Regular       | Straight      | fi-rs         | `<i class="fi fi-rs-user"></i>`         |
 | Bold          | Straight      | fi-bs         | `<i class="fi fi-bs-user"></i>`         |
 | Solid         | Straight      | fi-ss         | `<i class="fi fi-ss-user"></i>`         |
-| Brands        | Brands        | fi-ss         | `<i class="fi fi-brands-facebook"></i>` |
+| Brands        | Brands        | fi-brands     | `<i class="fi fi-brands-facebook"></i>` |
 
 ##### 3. Example
 
