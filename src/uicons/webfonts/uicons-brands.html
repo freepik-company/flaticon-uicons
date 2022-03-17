@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uicons</title>
+
+    <style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #4A6375;
+            line-height: 22px;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        .logo {
+            margin-bottom: 50px;
+            display: inline-block;
+        }
+
+        .logo svg {
+            display: block
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #0E2A47;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .mono {
+            font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        }
+
+        code {
+            background-color: #1D262D;
+            padding: 15px 20px;
+            border-radius: 3px;
+            color: #fff;
+            display: block;
+            font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+            font-weight: normal;
+            width: 100%;
+            max-width: 700px;
+            margin-left: -20px;
+        }
+
+        pre {
+            white-space: break-spaces;
+        }
+
+        small {
+            font-size: 14px;
+            margin-left: -20px;
+        }
+
+        ol {
+            list-style: decimal;
+            padding-left: 20px;
+        }
+
+        .steps {
+            text-align: left;
+            margin-bottom: 40px;;
+        }
+
+        .steps ol li {
+            margin-bottom: 20px;
+        }
+
+        .icons {
+            color: #374957;
+        }
+
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin: 0 -20px;
+        }
+
+        .icons li {
+            padding: 0 20px;
+            width: 50%;
+        }
+
+        .icon-holder {
+            height: 62px;
+            line-height: 62px;
+            border-bottom: 1px solid #CFD9E0;
+        }
+
+        .icon-holder i {
+            font-size: 32px;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .icons li {
+                padding: 0 20px;
+                width: 100%;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="css/uicons-brands.css" />
+</head>
+<body>
+
+<div class="container">
+    <a href="http://www.flaticon.com/uicons" class="logo">
+        <svg width="123" height="17" viewBox="0 0 123 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+                <path d="M29.4438 9.70091C29.4438 14.8009 25.845 17.004 21.812 17.004C17.7791 17.004 14.1641 14.805 14.1641 9.70091V0.434082H18.5135V9.33169C18.5135 11.9162 19.9295 12.9832 21.812 12.9832C23.6946 12.9832 25.1106 11.9324 25.1106 9.33169V0.434082H29.4438V9.70091Z" fill="#222C47"/>
+                <path d="M37.1853 16.5821H32.8359V0.434082H37.1853V16.5821Z" fill="#222C47"/>
+                <path d="M55.3498 3.051L52.2176 5.68012C51.7982 5.17177 51.2715 4.7626 50.6752 4.482C50.0789 4.2014 49.4279 4.05633 48.7689 4.05721C46.5171 4.05721 44.7116 5.82618 44.7116 8.52021C44.7116 11.2142 46.4968 12.9832 48.7689 12.9832C49.4361 12.977 50.0944 12.8291 50.7001 12.5493C51.3058 12.2695 51.8452 11.8642 52.2825 11.3603L55.3823 14.0097C54.6134 14.9885 53.6254 15.7731 52.4979 16.3002C51.3703 16.8274 50.1348 17.0823 48.8906 17.0446C43.7338 16.9999 40.2852 13.3889 40.2852 8.52021C40.2852 3.65148 43.7338 -7.03519e-05 48.8825 -7.03519e-05C50.1248 -0.0375892 51.3582 0.219274 52.4822 0.74954C53.6062 1.2798 54.5888 2.06843 55.3498 3.051Z" fill="#222C47"/>
+                <path d="M73.9959 8.52029C73.9959 13.389 70.2794 17.0406 65.2484 17.0406C60.2174 17.0406 56.5293 13.389 56.5293 8.52029C56.5293 3.65155 60.2295 0 65.2484 0C70.2672 0 73.9959 3.65155 73.9959 8.52029ZM60.9639 8.52029C60.9639 11.1372 62.7978 12.9833 65.2484 12.9833C67.699 12.9833 69.545 11.1494 69.545 8.52029C69.545 5.89117 67.699 4.05728 65.2484 4.05728C62.7978 4.05728 60.9639 5.88305 60.9639 8.52029Z" fill="#222C47"/>
+                <path d="M91.7714 6.30095V16.5821H87.422V7.70883C87.422 5.3759 86.2535 4.08974 84.2736 4.08974C82.4072 4.08974 80.8574 5.30692 80.8574 7.74129V16.5821H76.5039V0.434129H80.7397V2.33294C81.8879 0.616706 83.6569 0 85.4908 0C89.1545 0 91.7714 2.54797 91.7714 6.30095Z" fill="#222C47"/>
+                <path d="M106.657 4.93353C105.049 4.1464 103.297 3.6976 101.508 3.61492C99.8569 3.61492 99.0252 4.19917 99.0252 5.08365C99.0252 5.96814 100.19 6.24809 101.658 6.46718L103.091 6.68222C106.588 7.21778 108.54 8.78389 108.54 11.5185C108.54 14.8495 105.805 16.9999 101.123 16.9999C98.9238 16.9999 96.039 16.5942 93.9414 15.1011L95.6576 11.7984C97.2818 12.8839 99.2024 13.4395 101.155 13.3889C103.184 13.3889 104.141 12.8209 104.141 11.8715C104.141 11.0884 103.33 10.6543 101.456 10.3865L100.141 10.2039C96.4082 9.68866 94.5581 8.05358 94.5581 5.30275C94.5581 1.98795 97.1223 0.0282822 101.374 0.0282822C103.714 -0.0143955 106.03 0.511905 108.122 1.56193L106.657 4.93353Z" fill="#222C47"/>
+                <path d="M3.70114 8.5204L9.24338 2.95787L6.65889 0.377441L1.03145 6.00489C0.37092 6.66732 0 7.56464 0 8.50011C0 9.43559 0.37092 10.3329 1.03145 10.9953L6.60615 16.57L9.19064 13.9896L3.70114 8.5204Z" fill="#4AD295"/>
+                <path d="M118.622 8.44737L113.08 13.9896L115.665 16.57L121.288 10.9548C121.616 10.6269 121.876 10.2377 122.054 9.80916C122.232 9.38066 122.323 8.92136 122.323 8.45751C122.323 7.99366 122.232 7.53436 122.054 7.10586C121.876 6.67737 121.616 6.28808 121.288 5.96026L115.713 0.377441L113.133 2.95787L118.622 8.44737Z" fill="#4AD295"/>
+            </g>
+            <defs>
+                <clipPath id="clip0">
+                    <rect width="122.323" height="17" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
+    </a>
+
+    <h1>Get started</h1>
+
+    <div class="steps">
+        <ol>
+            <li>Copy the entire /webfonts folder and the css into your project’s static assets directory.</li>
+            <li>Add the following line into the <span class="mono">&lt;head&gt;</span> of each template or page that you want to use Uicons on.<br><br>
+                <code><pre>&lt;link href="/your-path-to-uicons/css/uicons-brands.css" rel="stylesheet"&gt;</pre></code>
+            </li>
+            <li>Use the icons with the tags <span class="mono">&lt;i&gt;</span> or <span class="mono">&lt;span&gt;</span>.<br><br>
+                <code><pre>&lt;i class="fi fi-brands-camera"&gt;
+&lt;span class="fi fi-brands-camera"&gt;</pre></code>
+                <small>Example:</small>
+            </li>
+        </ol>
+    </div>
+
+    <ul class="icons">
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-3m"></i>
+                    <span class="label mono">fi-brands-3m</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-500px"></i>
+                    <span class="label mono">fi-brands-500px</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-abbot-laboratories"></i>
+                    <span class="label mono">fi-brands-abbot-laboratories</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-accusoft"></i>
+                    <span class="label mono">fi-brands-accusoft</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-acrobat"></i>
+                    <span class="label mono">fi-brands-acrobat</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-adobe"></i>
+                    <span class="label mono">fi-brands-adobe</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-aecom"></i>
+                    <span class="label mono">fi-brands-aecom</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-aero"></i>
+                    <span class="label mono">fi-brands-aero</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-after-effects"></i>
+                    <span class="label mono">fi-brands-after-effects</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-airbnb"></i>
+                    <span class="label mono">fi-brands-airbnb</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-algolia"></i>
+                    <span class="label mono">fi-brands-algolia</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-amd"></i>
+                    <span class="label mono">fi-brands-amd</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-american-express"></i>
+                    <span class="label mono">fi-brands-american-express</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-android"></i>
+                    <span class="label mono">fi-brands-android</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-animate"></i>
+                    <span class="label mono">fi-brands-animate</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-app-store-ios"></i>
+                    <span class="label mono">fi-brands-app-store-ios</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-apple-pay"></i>
+                    <span class="label mono">fi-brands-apple-pay</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-apple"></i>
+                    <span class="label mono">fi-brands-apple</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-artstation"></i>
+                    <span class="label mono">fi-brands-artstation</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-astrazeneca"></i>
+                    <span class="label mono">fi-brands-astrazeneca</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-asus"></i>
+                    <span class="label mono">fi-brands-asus</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-atandt"></i>
+                    <span class="label mono">fi-brands-atandt</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-atlassian"></i>
+                    <span class="label mono">fi-brands-atlassian</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-atom"></i>
+                    <span class="label mono">fi-brands-atom</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-audition"></i>
+                    <span class="label mono">fi-brands-audition</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-behance"></i>
+                    <span class="label mono">fi-brands-behance</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-bitcoin"></i>
+                    <span class="label mono">fi-brands-bitcoin</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-blackberry"></i>
+                    <span class="label mono">fi-brands-blackberry</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-blogger"></i>
+                    <span class="label mono">fi-brands-blogger</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-bluetooth"></i>
+                    <span class="label mono">fi-brands-bluetooth</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-bootstrap"></i>
+                    <span class="label mono">fi-brands-bootstrap</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-bridgestone"></i>
+                    <span class="label mono">fi-brands-bridgestone</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-burger-king"></i>
+                    <span class="label mono">fi-brands-burger-king</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-c"></i>
+                    <span class="label mono">fi-brands-c</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-capture"></i>
+                    <span class="label mono">fi-brands-capture</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-cc-apple-pay"></i>
+                    <span class="label mono">fi-brands-cc-apple-pay</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-cc-diners-club"></i>
+                    <span class="label mono">fi-brands-cc-diners-club</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-cc-visa"></i>
+                    <span class="label mono">fi-brands-cc-visa</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-cc-amazon-pay"></i>
+                    <span class="label mono">fi-brands-cc-amazon-pay</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-centos"></i>
+                    <span class="label mono">fi-brands-centos</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-character"></i>
+                    <span class="label mono">fi-brands-character</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-chromecast"></i>
+                    <span class="label mono">fi-brands-chromecast</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-cloudflare"></i>
+                    <span class="label mono">fi-brands-cloudflare</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-confluence"></i>
+                    <span class="label mono">fi-brands-confluence</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-by"></i>
+                    <span class="label mono">fi-brands-creative-commons-by</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-nc-eu"></i>
+                    <span class="label mono">fi-brands-creative-commons-nc-eu</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-nc-jp"></i>
+                    <span class="label mono">fi-brands-creative-commons-nc-jp</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-nc"></i>
+                    <span class="label mono">fi-brands-creative-commons-nc</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-nd"></i>
+                    <span class="label mono">fi-brands-creative-commons-nd</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-pd-alt"></i>
+                    <span class="label mono">fi-brands-creative-commons-pd-alt</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-pd"></i>
+                    <span class="label mono">fi-brands-creative-commons-pd</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-remix"></i>
+                    <span class="label mono">fi-brands-creative-commons-remix</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-sa"></i>
+                    <span class="label mono">fi-brands-creative-commons-sa</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-sampling-plus"></i>
+                    <span class="label mono">fi-brands-creative-commons-sampling-plus</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-sampling"></i>
+                    <span class="label mono">fi-brands-creative-commons-sampling</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-share"></i>
+                    <span class="label mono">fi-brands-creative-commons-share</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons-zero"></i>
+                    <span class="label mono">fi-brands-creative-commons-zero</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-creative-commons"></i>
+                    <span class="label mono">fi-brands-creative-commons</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-css3-alt"></i>
+                    <span class="label mono">fi-brands-css3-alt</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-css3"></i>
+                    <span class="label mono">fi-brands-css3</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-dailymotion"></i>
+                    <span class="label mono">fi-brands-dailymotion</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-deezer"></i>
+                    <span class="label mono">fi-brands-deezer</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-delphi"></i>
+                    <span class="label mono">fi-brands-delphi</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-dev"></i>
+                    <span class="label mono">fi-brands-dev</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-devianart"></i>
+                    <span class="label mono">fi-brands-devianart</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-digg"></i>
+                    <span class="label mono">fi-brands-digg</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-dimension"></i>
+                    <span class="label mono">fi-brands-dimension</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-discord"></i>
+                    <span class="label mono">fi-brands-discord</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-docker"></i>
+                    <span class="label mono">fi-brands-docker</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-dribbble"></i>
+                    <span class="label mono">fi-brands-dribbble</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-dropbox"></i>
+                    <span class="label mono">fi-brands-dropbox</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-drupal"></i>
+                    <span class="label mono">fi-brands-drupal</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-ebay"></i>
+                    <span class="label mono">fi-brands-ebay</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-elementor"></i>
+                    <span class="label mono">fi-brands-elementor</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-ethereum"></i>
+                    <span class="label mono">fi-brands-ethereum</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-etsy"></i>
+                    <span class="label mono">fi-brands-etsy</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-evernote"></i>
+                    <span class="label mono">fi-brands-evernote</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-facebook-messenger"></i>
+                    <span class="label mono">fi-brands-facebook-messenger</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-facebook"></i>
+                    <span class="label mono">fi-brands-facebook</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-fedex"></i>
+                    <span class="label mono">fi-brands-fedex</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-figma"></i>
+                    <span class="label mono">fi-brands-figma</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-firefox-browser"></i>
+                    <span class="label mono">fi-brands-firefox-browser</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-firefox"></i>
+                    <span class="label mono">fi-brands-firefox</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-flickr"></i>
+                    <span class="label mono">fi-brands-flickr</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-flipboard"></i>
+                    <span class="label mono">fi-brands-flipboard</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-fonts"></i>
+                    <span class="label mono">fi-brands-fonts</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-foursquare"></i>
+                    <span class="label mono">fi-brands-foursquare</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-fresco"></i>
+                    <span class="label mono">fi-brands-fresco</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-github"></i>
+                    <span class="label mono">fi-brands-github</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-gitlab"></i>
+                    <span class="label mono">fi-brands-gitlab</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-goodreads"></i>
+                    <span class="label mono">fi-brands-goodreads</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-google"></i>
+                    <span class="label mono">fi-brands-google</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-haskell"></i>
+                    <span class="label mono">fi-brands-haskell</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-hbo"></i>
+                    <span class="label mono">fi-brands-hbo</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-hotjar"></i>
+                    <span class="label mono">fi-brands-hotjar</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-html5"></i>
+                    <span class="label mono">fi-brands-html5</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-huawei"></i>
+                    <span class="label mono">fi-brands-huawei</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-hubspot"></i>
+                    <span class="label mono">fi-brands-hubspot</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-ibm"></i>
+                    <span class="label mono">fi-brands-ibm</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-imdb"></i>
+                    <span class="label mono">fi-brands-imdb</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-incopy"></i>
+                    <span class="label mono">fi-brands-incopy</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-indesign"></i>
+                    <span class="label mono">fi-brands-indesign</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-instagram"></i>
+                    <span class="label mono">fi-brands-instagram</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-intel"></i>
+                    <span class="label mono">fi-brands-intel</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-invision"></i>
+                    <span class="label mono">fi-brands-invision</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-itunes"></i>
+                    <span class="label mono">fi-brands-itunes</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-janseen"></i>
+                    <span class="label mono">fi-brands-janseen</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-java"></i>
+                    <span class="label mono">fi-brands-java</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-jcb"></i>
+                    <span class="label mono">fi-brands-jcb</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-jira"></i>
+                    <span class="label mono">fi-brands-jira</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-johnson-and-johnson"></i>
+                    <span class="label mono">fi-brands-johnson-and-johnson</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-joomla"></i>
+                    <span class="label mono">fi-brands-joomla</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-js"></i>
+                    <span class="label mono">fi-brands-js</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-kickstarter"></i>
+                    <span class="label mono">fi-brands-kickstarter</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-line"></i>
+                    <span class="label mono">fi-brands-line</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-linkedin"></i>
+                    <span class="label mono">fi-brands-linkedin</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-lisp"></i>
+                    <span class="label mono">fi-brands-lisp</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-mailchimp"></i>
+                    <span class="label mono">fi-brands-mailchimp</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-marriott-international"></i>
+                    <span class="label mono">fi-brands-marriott-international</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-mcdonalds"></i>
+                    <span class="label mono">fi-brands-mcdonalds</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-media-encoder"></i>
+                    <span class="label mono">fi-brands-media-encoder</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-medium"></i>
+                    <span class="label mono">fi-brands-medium</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-meta"></i>
+                    <span class="label mono">fi-brands-meta</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-microsoft-explorer"></i>
+                    <span class="label mono">fi-brands-microsoft-explorer</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-mysql"></i>
+                    <span class="label mono">fi-brands-mysql</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-napster"></i>
+                    <span class="label mono">fi-brands-napster</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-nestle"></i>
+                    <span class="label mono">fi-brands-nestle</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-netflix"></i>
+                    <span class="label mono">fi-brands-netflix</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-node-js"></i>
+                    <span class="label mono">fi-brands-node-js</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-nvidia"></i>
+                    <span class="label mono">fi-brands-nvidia</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-oracle"></i>
+                    <span class="label mono">fi-brands-oracle</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-patreon"></i>
+                    <span class="label mono">fi-brands-patreon</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-paypal"></i>
+                    <span class="label mono">fi-brands-paypal</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-pfizer"></i>
+                    <span class="label mono">fi-brands-pfizer</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-photoshop-camera"></i>
+                    <span class="label mono">fi-brands-photoshop-camera</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-photoshop-express"></i>
+                    <span class="label mono">fi-brands-photoshop-express</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-photoshop-lightroom-classic"></i>
+                    <span class="label mono">fi-brands-photoshop-lightroom-classic</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-photoshop-lightroom"></i>
+                    <span class="label mono">fi-brands-photoshop-lightroom</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-photoshop"></i>
+                    <span class="label mono">fi-brands-photoshop</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-php"></i>
+                    <span class="label mono">fi-brands-php</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-pinterest"></i>
+                    <span class="label mono">fi-brands-pinterest</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-postgre"></i>
+                    <span class="label mono">fi-brands-postgre</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-premiere-rush"></i>
+                    <span class="label mono">fi-brands-premiere-rush</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-premiere"></i>
+                    <span class="label mono">fi-brands-premiere</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-product-hunt"></i>
+                    <span class="label mono">fi-brands-product-hunt</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-python"></i>
+                    <span class="label mono">fi-brands-python</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-raspberry-pi"></i>
+                    <span class="label mono">fi-brands-raspberry-pi</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-reddit"></i>
+                    <span class="label mono">fi-brands-reddit</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-samsung"></i>
+                    <span class="label mono">fi-brands-samsung</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-sap"></i>
+                    <span class="label mono">fi-brands-sap</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-sass"></i>
+                    <span class="label mono">fi-brands-sass</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-shopify"></i>
+                    <span class="label mono">fi-brands-shopify</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-siemens"></i>
+                    <span class="label mono">fi-brands-siemens</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-sketch"></i>
+                    <span class="label mono">fi-brands-sketch</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-skype"></i>
+                    <span class="label mono">fi-brands-skype</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-slack"></i>
+                    <span class="label mono">fi-brands-slack</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-snapchat"></i>
+                    <span class="label mono">fi-brands-snapchat</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-sony"></i>
+                    <span class="label mono">fi-brands-sony</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-soundcloud"></i>
+                    <span class="label mono">fi-brands-soundcloud</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-spark"></i>
+                    <span class="label mono">fi-brands-spark</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-spotify"></i>
+                    <span class="label mono">fi-brands-spotify</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-starbucks"></i>
+                    <span class="label mono">fi-brands-starbucks</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-stock"></i>
+                    <span class="label mono">fi-brands-stock</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-stripe"></i>
+                    <span class="label mono">fi-brands-stripe</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-substance-3d-designer"></i>
+                    <span class="label mono">fi-brands-substance-3d-designer</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-substance-3d-painter"></i>
+                    <span class="label mono">fi-brands-substance-3d-painter</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-substance-3d-sampler"></i>
+                    <span class="label mono">fi-brands-substance-3d-sampler</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-substance-3d-stager"></i>
+                    <span class="label mono">fi-brands-substance-3d-stager</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-swift"></i>
+                    <span class="label mono">fi-brands-swift</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-t-mobile"></i>
+                    <span class="label mono">fi-brands-t-mobile</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-telegram"></i>
+                    <span class="label mono">fi-brands-telegram</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-tencent"></i>
+                    <span class="label mono">fi-brands-tencent</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-the-home-depot"></i>
+                    <span class="label mono">fi-brands-the-home-depot</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-tik-tok"></i>
+                    <span class="label mono">fi-brands-tik-tok</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-trello"></i>
+                    <span class="label mono">fi-brands-trello</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-tripadvisor"></i>
+                    <span class="label mono">fi-brands-tripadvisor</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-tumblr"></i>
+                    <span class="label mono">fi-brands-tumblr</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-twitch"></i>
+                    <span class="label mono">fi-brands-twitch</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-twitter"></i>
+                    <span class="label mono">fi-brands-twitter</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-typescript"></i>
+                    <span class="label mono">fi-brands-typescript</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-uber"></i>
+                    <span class="label mono">fi-brands-uber</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-ubuntu"></i>
+                    <span class="label mono">fi-brands-ubuntu</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-unilever"></i>
+                    <span class="label mono">fi-brands-unilever</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-unity"></i>
+                    <span class="label mono">fi-brands-unity</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-unsplash"></i>
+                    <span class="label mono">fi-brands-unsplash</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-ups"></i>
+                    <span class="label mono">fi-brands-ups</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-usaa"></i>
+                    <span class="label mono">fi-brands-usaa</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-verizon"></i>
+                    <span class="label mono">fi-brands-verizon</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-vimeo"></i>
+                    <span class="label mono">fi-brands-vimeo</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-visa"></i>
+                    <span class="label mono">fi-brands-visa</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-visual-basic"></i>
+                    <span class="label mono">fi-brands-visual-basic</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-vk"></i>
+                    <span class="label mono">fi-brands-vk</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-walmart"></i>
+                    <span class="label mono">fi-brands-walmart</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-whatsapp"></i>
+                    <span class="label mono">fi-brands-whatsapp</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-wikipedia"></i>
+                    <span class="label mono">fi-brands-wikipedia</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-windows"></i>
+                    <span class="label mono">fi-brands-windows</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-wix"></i>
+                    <span class="label mono">fi-brands-wix</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-wordpress"></i>
+                    <span class="label mono">fi-brands-wordpress</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-xd"></i>
+                    <span class="label mono">fi-brands-xd</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-xing"></i>
+                    <span class="label mono">fi-brands-xing</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-yahoo"></i>
+                    <span class="label mono">fi-brands-yahoo</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-yandex"></i>
+                    <span class="label mono">fi-brands-yandex</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-yelp"></i>
+                    <span class="label mono">fi-brands-yelp</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-youtube"></i>
+                    <span class="label mono">fi-brands-youtube</span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="icon-holder">
+                    <i class="fi fi-brands-zoom"></i>
+                    <span class="label mono">fi-brands-zoom</span>
+                </div>
+            </li>
+
+
+    </ul>
+</div>
+</body>
+</html>
