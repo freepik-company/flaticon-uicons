@@ -85,7 +85,7 @@ This package contains the following directories and files:
     <i class="fi fi-rr-user"></i>
     <i class="fi fi-br-arrow-right"></i>
     <i class="fi fi-sr-book"></i>
-    <i class="fi fi-rr-clean"></i>
+    <i class="fi fi-rr-broom"></i>
   </body>
 </html>
 ```
