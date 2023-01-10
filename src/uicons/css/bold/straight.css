@@ -1,9 +1,9 @@
 @font-face {
   font-family: "uicons-bold-straight";
-  src: url("../webfonts/uicons-bold-straight.eot#iefix")
+  src: url("../../webfonts/uicons-bold-straight.eot#iefix")
       format("embedded-opentype"),
-    url("../webfonts/uicons-bold-straight.woff2") format("woff2"),
-    url("../webfonts/uicons-bold-straight.woff") format("woff");
+    url("../../webfonts/uicons-bold-straight.woff2") format("woff2"),
+    url("../../webfonts/uicons-bold-straight.woff") format("woff");
 }
 
 i[class^="fi-bs-"]:before,

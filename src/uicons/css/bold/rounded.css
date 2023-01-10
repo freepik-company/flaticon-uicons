@@ -1,9 +1,9 @@
 @font-face {
   font-family: "uicons-bold-rounded";
-  src: url("../webfonts/uicons-bold-rounded.eot#iefix")
+  src: url("../../webfonts/uicons-bold-rounded.eot#iefix")
       format("embedded-opentype"),
-    url("../webfonts/uicons-bold-rounded.woff2") format("woff2"),
-    url("../webfonts/uicons-bold-rounded.woff") format("woff");
+    url("../../webfonts/uicons-bold-rounded.woff2") format("woff2"),
+    url("../../webfonts/uicons-bold-rounded.woff") format("woff");
 }
 
 i[class^="fi-br-"]:before,
