@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.0] - 2023-01-13
+update fonts to current version in flaticon 
+
 ## [1.7.1] - 2023-01-13
 
 We corrected some problems that prevented the correct use of the library
