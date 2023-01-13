@@ -1,8 +1,8 @@
 # Change Log
 
-## [Unreleased] - yyyy-mm-dd
+## [1.7.1] - 2023-01-13
 
-We are working hard to create a version of this library for React
+We corrected some problems that prevented the correct use of the library
 
 ## [1.7.0] - 2017-03-15
 
