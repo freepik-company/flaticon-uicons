@@ -2,7 +2,6 @@
 node_modules/
 /lib/
 /css/
-/svg/
 
 # workspace files
 *.code-workspace
