@@ -1,7 +1,7 @@
 {
   "name": "@flaticon/flaticon-uicons",
   "description": "Interface icons from Flaticon",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "main": "index.js",
   "types": "lib/index.d.ts",
   "scripts": {
