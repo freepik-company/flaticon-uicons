@@ -9,7 +9,6 @@
     "clean:css": "rimraf css",
     "prebuild": "run-p clean:css",
     "build": "node ./esbuild.js",
-    "postinstall": "node license",
     "update-fonts": "node utils/update-fonts.js"
   },
   "repository": {
