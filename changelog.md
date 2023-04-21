@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.1.0] - 2023-04-21
+update fonts to current version in flaticon
+
 ## [2.0.1] - 2023-02-06
 we do not show license after installation
 
