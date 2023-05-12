@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.2.0] - 2023-05-12
+update fonts to current version in flaticon
+
 ## [2.1.0] - 2023-04-21
 update fonts to current version in flaticon
 
