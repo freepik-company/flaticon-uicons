@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.3.0] - 2023-05-12
+update fonts to current version in flaticon and change license
+
 ## [2.2.0] - 2023-05-12
 update fonts to current version in flaticon
 
