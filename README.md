@@ -39,8 +39,6 @@ This package contains the following directories and files:
 | Path &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | What it is                   |
 | :----------------------------------------------------------------------------------------------------- | :--------------------------- |
 | /css                                                                                                   | Stylesheets for Web Fonts    |
-| /svg                                                                                                   | Individual SVG for each icon |
-| /webfont                                                                                               | Web Font files used with CSS |
 
 # HTML include
 
