@@ -1,10 +1,19 @@
+/*!
+*   _____       _             __                 _____                               ______ _       _   _
+*  |_   _|     | |           / _|               |_   _|                             |  ____| |     | | (_)
+*    | |  _ __ | |_ ___ _ __| |_ __ _  ___ ___    | |  ___ ___  _ __  ___   ______  | |__  | | __ _| |_ _  ___ ___  _ __
+*    | | | '_ \| __/ _ \ '__|  _/ _` |/ __/ _ \   | | / __/ _ \| '_ \/ __| |______| |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*   _| |_| | | | ||  __/ |  | || (_| | (_|  __/  _| || (_| (_) | | | \__ \          | |    | | (_| | |_| | (_| (_) | | | |
+*  |_____|_| |_|\__\___|_|  |_| \__,_|\___\___| |_____\___\___/|_| |_|___/          |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*                         UIcons 2.0.0 - https://www.flaticon.com/uicons/interface-icons
+*/
 @font-face {
 font-family: "uicons-brands";
 src: url("../../webfonts/uicons-brands.eot#iefix") format("embedded-opentype"),
 url("../../webfonts/uicons-brands.woff2") format("woff2"),
 url("../../webfonts/uicons-brands.woff") format("woff");
 }
-
     i[class^="fi-brands-"]:before, i[class*=" fi-brands-"]:before, span[class^="fi-brands-"]:before, span[class*="fi-brands-"]:before {
 font-family: uicons-brands !important;
 font-style: normal;
@@ -583,90 +592,99 @@ line-height: 1;
         .fi-brands-twitch:before {
     content: "\f1bd";
     }
-        .fi-brands-twitter:before {
+        .fi-brands-twitter-alt-circle:before {
     content: "\f1be";
     }
-        .fi-brands-typescript:before {
+        .fi-brands-twitter-alt-square:before {
     content: "\f1bf";
     }
-        .fi-brands-uber:before {
+        .fi-brands-twitter-alt:before {
     content: "\f1c0";
     }
-        .fi-brands-ubuntu:before {
+        .fi-brands-twitter:before {
     content: "\f1c1";
     }
-        .fi-brands-unilever:before {
+        .fi-brands-typescript:before {
     content: "\f1c2";
     }
-        .fi-brands-unity:before {
+        .fi-brands-uber:before {
     content: "\f1c3";
     }
-        .fi-brands-unsplash:before {
+        .fi-brands-ubuntu:before {
     content: "\f1c4";
     }
-        .fi-brands-ups:before {
+        .fi-brands-unilever:before {
     content: "\f1c5";
     }
-        .fi-brands-usaa:before {
+        .fi-brands-unity:before {
     content: "\f1c6";
     }
-        .fi-brands-verizon:before {
+        .fi-brands-unsplash:before {
     content: "\f1c7";
     }
-        .fi-brands-videvo:before {
+        .fi-brands-ups:before {
     content: "\f1c8";
     }
-        .fi-brands-vimeo:before {
+        .fi-brands-usaa:before {
     content: "\f1c9";
     }
-        .fi-brands-visa:before {
+        .fi-brands-verizon:before {
     content: "\f1ca";
     }
-        .fi-brands-visual-basic:before {
+        .fi-brands-videvo:before {
     content: "\f1cb";
     }
-        .fi-brands-vk:before {
+        .fi-brands-vimeo:before {
     content: "\f1cc";
     }
-        .fi-brands-walmart:before {
+        .fi-brands-visa:before {
     content: "\f1cd";
     }
-        .fi-brands-wepik:before {
+        .fi-brands-visual-basic:before {
     content: "\f1ce";
     }
-        .fi-brands-whatsapp:before {
+        .fi-brands-vk:before {
     content: "\f1cf";
     }
-        .fi-brands-wikipedia:before {
+        .fi-brands-walmart:before {
     content: "\f1d0";
     }
-        .fi-brands-windows:before {
+        .fi-brands-wepik:before {
     content: "\f1d1";
     }
-        .fi-brands-wix:before {
+        .fi-brands-whatsapp:before {
     content: "\f1d2";
     }
-        .fi-brands-wordpress:before {
+        .fi-brands-wikipedia:before {
     content: "\f1d3";
     }
-        .fi-brands-xd:before {
+        .fi-brands-windows:before {
     content: "\f1d4";
     }
-        .fi-brands-xing:before {
+        .fi-brands-wix:before {
     content: "\f1d5";
     }
-        .fi-brands-yahoo:before {
+        .fi-brands-wordpress:before {
     content: "\f1d6";
     }
-        .fi-brands-yandex:before {
+        .fi-brands-xd:before {
     content: "\f1d7";
     }
-        .fi-brands-yelp:before {
+        .fi-brands-xing:before {
     content: "\f1d8";
     }
-        .fi-brands-youtube:before {
+        .fi-brands-yahoo:before {
     content: "\f1d9";
     }
-        .fi-brands-zoom:before {
+        .fi-brands-yandex:before {
     content: "\f1da";
+    }
+        .fi-brands-yelp:before {
+    content: "\f1db";
+    }
+        .fi-brands-youtube:before {
+    content: "\f1dc";
+    }
+        .fi-brands-zoom:before {
+    content: "\f1dd";
     }
