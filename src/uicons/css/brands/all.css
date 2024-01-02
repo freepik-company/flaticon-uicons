@@ -6,13 +6,14 @@
 *   _| |_| | | | ||  __/ |  | || (_| | (_|  __/  _| || (_| (_) | | | \__ \          | |    | | (_| | |_| | (_| (_) | | | |
 *  |_____|_| |_|\__\___|_|  |_| \__,_|\___\___| |_____\___\___/|_| |_|___/          |_|    |_|\__,_|\__|_|\___\___/|_| |_|
 *
-*                         UIcons 2.0.0 - https://www.flaticon.com/uicons/interface-icons
+*                         UIcons 2.1.0 - https://www.flaticon.com/uicons/interface-icons
 */
 @font-face {
-font-family: "uicons-brands";
-src: url("../../webfonts/uicons-brands.eot#iefix") format("embedded-opentype"),
-url("../../webfonts/uicons-brands.woff2") format("woff2"),
-url("../../webfonts/uicons-brands.woff") format("woff");
+    font-family: "uicons-brands";
+    src: url("../../webfonts/uicons-brands.woff2") format("woff2"),
+    url("../../webfonts/uicons-brands.woff") format("woff"),
+    url("../../webfonts/uicons-brands.eot#iefix") format("embedded-opentype");
+    font-display: swap;
 }
     i[class^="fi-brands-"]:before, i[class*=" fi-brands-"]:before, span[class^="fi-brands-"]:before, span[class*="fi-brands-"]:before {
 font-family: uicons-brands !important;
