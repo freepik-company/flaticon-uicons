@@ -6,7 +6,7 @@ Open-source Over 4,000 SVG and web font-optimal vector-based icons available for
 
 #### 🔥 New Icons Brand
 
-#### 🚀 Over 4,000 Icons
+#### 🚀 Over 20,000 Icons
 
 #### 🔥 SVG Icons
 
@@ -68,6 +68,8 @@ This package contains the following directories and files:
 | Bold          | Straight      | fi-bs         | `<i class="fi fi-bs-user"></i>`         |
 | Solid         | Straight      | fi-ss         | `<i class="fi fi-ss-user"></i>`         |
 | Brands        | Brands        | fi-brands     | `<i class="fi fi-brands-facebook"></i>` |
+| Thin          | Rounded       | fi-tr         | `<i class="fi fi-tr-circle-user"></i>` |
+| Thin          | Straight      | fi-ts         | `<i class="fi fi-ts-circle-user"></i>`         |
 
 ##### 3. Example
 

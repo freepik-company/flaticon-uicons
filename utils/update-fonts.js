@@ -3,12 +3,13 @@ const https = require("https");
 
 const CSS_FOLDER = "src/uicons/css";
 const WEBFONTS_FOLDER = "src/uicons/webfonts";
-const CDN_URL = 'https://cdn-uicons.flaticon.com/2.1.0';
+const CDN_URL = 'https://cdn-uicons.flaticon.com/2.3.0';
 
 const ICON_STYLES = [
     'bold',
     'regular',
-    'solid'
+    'solid',
+    'thin'
 ];
 
 const ICON_FAMILIES = [
@@ -23,8 +24,8 @@ const WEBFONT_EXTENSIONS = [
 ];
 
 function updateStyles() {
-    for (style of ICON_STYLES) {
-        for (family of ICON_FAMILIES) {
+    for (const style of ICON_STYLES) {
+        for (const family of ICON_FAMILIES) {
             const url = `/uicons-${style}-${family}/css/uicons-${style}-${family}.css`;
             const path = `/${style}/${family}.css`;
             const id = `uicons-${style}-${family}`;
@@ -64,7 +65,7 @@ function downloadWebFont(id) {
 
     const fontUrlBase = `${CDN_URL}/${id}/webfonts`;
 
-    for(ext of WEBFONT_EXTENSIONS) {
+    for(const ext of WEBFONT_EXTENSIONS) {
         const fileName = `${id}.${ext}`;
         const fontUrl = `${fontUrlBase}/${fileName}`;
 
