@@ -1,4 +1,6 @@
 # Change Log
+## [3.3.0] - 2024-06-11
+update fonts to current version in flaticon
 
 ## [3.2.1] - 2024-04-12
 fix build thin style
