@@ -3,7 +3,7 @@ const https = require("https");
 
 const CSS_FOLDER = "src/uicons/css";
 const WEBFONTS_FOLDER = "src/uicons/webfonts";
-const CDN_URL = 'https://cdn-uicons.flaticon.com/2.4.0';
+const CDN_URL = 'https://cdn-uicons.flaticon.com/2.4.2';
 
 const ICON_STYLES = [
     'bold',

@@ -6,7 +6,7 @@
 *   _| |_| | | | ||  __/ |  | || (_| | (_|  __/  _| || (_| (_) | | | \__ \          | |    | | (_| | |_| | (_| (_) | | | |
 *  |_____|_| |_|\__\___|_|  |_| \__,_|\___\___| |_____\___\___/|_| |_|___/          |_|    |_|\__,_|\__|_|\___\___/|_| |_|
 *
-*                         UIcons 2.4.0 - https://www.flaticon.com/uicons/interface-icons
+*                         UIcons 2.4.2 - https://www.flaticon.com/uicons/interface-icons
 */
 @font-face {
     font-family: "uicons-brands";
@@ -26,6 +26,105 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 }
 
+        .variable-selector-00:before {
+    content: "\fe00";
+    }
+        .variable-selector-01:before {
+    content: "\fe01";
+    }
+        .variable-selector-02:before {
+    content: "\fe02";
+    }
+        .variable-selector-03:before {
+    content: "\fe03";
+    }
+        .variable-selector-04:before {
+    content: "\fe04";
+    }
+        .variable-selector-05:before {
+    content: "\fe05";
+    }
+        .variable-selector-06:before {
+    content: "\fe06";
+    }
+        .variable-selector-07:before {
+    content: "\fe07";
+    }
+        .variable-selector-08:before {
+    content: "\fe08";
+    }
+        .variable-selector-09:before {
+    content: "\fe09";
+    }
+        .variable-selector-0a:before {
+    content: "\fe0a";
+    }
+        .variable-selector-0b:before {
+    content: "\fe0b";
+    }
+        .variable-selector-0c:before {
+    content: "\fe0c";
+    }
+        .variable-selector-0d:before {
+    content: "\fe0d";
+    }
+        .variable-selector-0e:before {
+    content: "\fe0e";
+    }
+        .variable-selector-0f:before {
+    content: "\fe0f";
+    }
+        .combining-half-marks-00:before {
+    content: "\fe20";
+    }
+        .combining-half-marks-01:before {
+    content: "\fe21";
+    }
+        .combining-half-marks-02:before {
+    content: "\fe22";
+    }
+        .combining-half-marks-03:before {
+    content: "\fe23";
+    }
+        .combining-half-marks-04:before {
+    content: "\fe24";
+    }
+        .combining-half-marks-05:before {
+    content: "\fe25";
+    }
+        .combining-half-marks-06:before {
+    content: "\fe26";
+    }
+        .combining-half-marks-07:before {
+    content: "\fe27";
+    }
+        .combining-half-marks-08:before {
+    content: "\fe28";
+    }
+        .combining-half-marks-09:before {
+    content: "\fe29";
+    }
+        .combining-half-marks-0a:before {
+    content: "\fe2a";
+    }
+        .combining-half-marks-0b:before {
+    content: "\fe2b";
+    }
+        .combining-half-marks-0c:before {
+    content: "\fe2c";
+    }
+        .combining-half-marks-0d:before {
+    content: "\fe2d";
+    }
+        .combining-half-marks-0e:before {
+    content: "\fe2e";
+    }
+        .combining-half-marks-0f:before {
+    content: "\fe2f";
+    }
+        .zero-width-no-break-space-0f:before {
+    content: "\feff";
+    }
         .fi-brands-3m:before {
     content: "\f101";
     }

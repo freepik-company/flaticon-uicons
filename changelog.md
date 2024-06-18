@@ -1,4 +1,7 @@
 # Change Log
+## [3.3.1] - 2024-06-11
+fixes issues in the latest font update
+
 ## [3.3.0] - 2024-06-11
 update fonts to current version in flaticon
 
